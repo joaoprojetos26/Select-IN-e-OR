@@ -1,0 +1,173 @@
+At1
+SELECT Quantity AS Quantidade,ProductID AS Produto
+FROM OrderDetails
+WHERE Quantity < 10 OR ProductID > 20
+ORDER BY OrderDetailID;
+
+At2
+SELECT OrderID AS IDVenda,ProductID AS IDProduto
+FROM OrderDetails
+WHERE OrderID LIKE 100 OR ProductID % 5 = 0
+ORDER BY Quantity;
+
+At3
+SELECT OrderDetailID AS IDDetalhesDeVenda,Quantity AS Quantidade 
+FROM OrderDetails
+WHERE OrderDetailID > 50 OR Quantity < 20
+ORDER BY OrderID;
+
+at4
+SELECT ProductID AS IDProduto,OrderID AS IDVendas 
+FROM OrderDetails
+WHERE ProductID < 15 OR OrderID % 10 = 0
+ORDER BY Quantity;
+
+at5
+SELECT Quantity AS Quantidade, OrderDetailID AS IDVenda 
+FROM OrderDetails
+WHERE (Quantity BETWEEN 20 AND 50) OR (OrderDetailID % 3 = 0)
+ORDER BY OrderID;
+
+at6
+SELECT OrderID AS IDVenda,ProductID AS IDProduto
+FROM OrderDetails
+WHERE OrderID > 200 OR ProductID % 10 = 7
+ORDER BY Quantity;
+
+at7
+SELECT Quantity,OrderID
+FROM OrderDetails
+WHERE Quantity % 4 = 0 OR OrderID < 50
+ORDER BY OrderDetailID;
+
+at8
+SELECT ProductID AS Produto,Quantity AS Quantidade
+FROM OrderDetails
+WHERE ProductID LIKE 8 OR (Quantity BETWEEN 10 AND 30)
+ORDER BY OrderID;
+
+at9
+SELECT OrderDetailID AS IDDetalhesvenda,ProductID AS IDProduto
+FROM OrderDetails
+WHERE OrderDetailID % 10 LIKE 5 OR ProductID > 25
+ORDER BY Quantity;
+
+at10
+SELECT OrderID AS IDVenda,Quantity AS Quantidade 
+FROM OrderDetails
+WHERE OrderID LIKE 150 OR Quantity < 15
+ORDER BY OrderDetailID;
+
+at11
+SELECT Quantity AS Quantidade,OrderID AS IDVenda 
+FROM OrderDetails
+WHERE Quantity < 50 OR OrderID LIKE 250
+ORDER BY OrderDetailID;
+
+at12
+SELECT ProductID AS IDProduto, OrderID AS IDVendas
+FROM OrderDetails
+WHERE ProductID > 30 OR (OrderID BETWEEN 100 AND 300)
+ORDER BY Quantity;
+
+at13
+SELECT OrderDetailID AS IDDetanhesdavenda,Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderDetailID < 15 OR Quantity % 5 LIKE 0
+ORDER BY ProductID;
+
+at14
+SELECT ProductID AS IDProduto, OrderID AS IDVendas
+FROM OrderDetails
+WHERE ProductID < 12 OR OrderID % 10 = 9
+ORDER BY Quantity;
+
+at15
+SELECT Quantity AS Quantidade, OrderID AS IDvendas
+FROM OrderDetails
+WHERE Quantity > 25 OR OrderID % 4 = 0
+ORDER BY OrderDetailID;
+
+at16
+SELECT ProductID AS IDprodutos,OrderID AS IDVendas
+FROM OrderDetails
+WHERE ProductID LIKE 45 OR OrderID < 200
+ORDER BY Quantity
+
+at17
+SELECT OrderDetailID AS 'ID Detalhedevendas',Quantity AS Quantidades
+FROM OrderDetails
+WHERE OrderDetailID LIKE 50 OR Quantity > 30
+ORDER BY OrderID;
+
+at18
+SELECT Quantity AS Quantidade, OrderDetailID AS Detalhedevendas
+FROM OrderDetails
+WHERE Quantity < 5 OR OrderDetailID % 6 = 0
+ORDER BY ProductID;
+
+at19
+SELECT  OrderID AS IDvendas,Quantity AS Quantidades
+FROM OrderDetails
+WHERE OrderID > 10 OR (Quantity BETWEEN 10 AND 20)
+ORDER BY Quantity;
+
+at20
+SELECT ProductID AS IDProduto, OrderDetailID AS IDdetalhesdevendas
+FROM OrderDetails
+WHERE ProductID > 15 OR OrderDetailID % 10 = 2
+ORDER BY OrderID;
+
+at21
+SELECT ProductID AS IDprodutos,Quantity AS Quantidade 
+FROM OrderDetails
+WHERE ProductID > 50 OR Quantity < 5
+ORDER BY OrderID;
+
+at22
+SELECT  OrderDetailID AS IDdetalhedevendas,Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderDetailID % 10 = 3 OR (Quantity BETWEEN 10 AND 15)
+ORDER BY ProductID;
+
+at23
+SELECT OrderID AS IDvendas,Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderID % 7 = 0 OR Quantity LIKE 25
+ORDER BY Quantity;
+
+at24
+SELECT OrderDetailID AS IDdetalhesdevendas,ProductID AS IDprodutos
+FROM OrderDetails
+WHERE OrderDetailID < 10 OR (ProductID BETWEEN 15 AND 20)
+ORDER BY OrderID;
+
+at25
+SELECT OrderID AS IDvendas,Quantity as Quantidade
+FROM OrderDetails
+WHERE OrderID > 300 OR Quantity % 2 = 0
+ORDER BY OrderDetailID;
+
+at26
+SELECT  ProductID AS IDProdutos,Quantity AS Quatidades
+FROM OrderDetails
+WHERE ProductID % 9 = 0 OR (Quantity BETWEEN 1 AND 10)
+ORDER BY OrderID;
+
+at27
+SELECT OrderDetailID AS IDdetalhesdevenda,ProductID AS IDprodutos
+FROM OrderDetails
+WHERE OrderDetailID LIKE 100 OR ProductID > 25
+ORDER BY Quantity;
+
+at28
+SELECT Quantity AS Quantidade,OrderID AS IDvendas
+FROM OrderDetails
+WHERE Quantity LIKE 50 OR OrderID % 10 = 8
+ORDER BY ProductID;
+
+at29
+SELECT ProductID AS IDprodutos,Quantity AS Quantidade
+FROM OrderDetails
+WHERE ProductID < 20 OR Quantity > 40
+ORDER BY OrderDetailID;
