@@ -240,3 +240,323 @@ ORDER BY ProductID;
 
 FROM WHERE IN ORDER BY
 
+at_1
+SELECT
+    OrderID AS Ordem,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderID IN (50,100,150)
+ORDER BY Quantity ASC;
+
+at_2
+SELECT
+    ProductID AS Produto,
+    OrderDetailID AS Detalhes
+FROM OrderDetails
+WHERE ProductID IN (2,4,6,8)
+ORDER BY OrderDetailID ASC;
+
+at_3
+SELECT
+    Quantity AS Quantidade,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE Quantity IN (10,20,30)
+ORDER BY OrderID ASC;
+
+at_4
+SELECT
+    OrderDetailID AS Detalhes,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderDetailID IN (5,10,15,20)
+ORDER BY Quantity ASC;
+
+at_5
+SELECT
+    OrderID AS Ordem,
+    ProductID AS Produto
+FROM OrderDetails
+WHERE OrderID IN (200,300,400)
+ORDER BY ProductID ASC;
+
+at_6
+SELECT
+    ProductID AS Produto,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE ProductID IN (12,14,16)
+ORDER BY Quantity ASC;
+
+at_7
+SELECT
+    Quantity AS Quantidade,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE Quantity IN (25,50,75,100)
+ORDER BY OrderID ASC;
+
+at_8
+SELECT
+    OrderDetailID AS Detalhes,
+    ProductID AS Produto
+FROM OrderDetails
+WHERE OrderDetailID IN (100,200,300)
+ORDER BY ProductID ASC;
+
+at_9
+SELECT
+    ProductID AS Produto,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE ProductID IN (5,10,15,20)
+ORDER BY Quantity ASC;
+
+at_10
+SELECT
+    Quantity AS Quantidade,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE Quantity IN (1,2,3,4,5)
+ORDER BY OrderID ASC;
+
+at_11
+SELECT
+    OrderID AS Ordem,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderID IN (250,350,450)
+ORDER BY Quantity ASC;
+
+at_12
+SELECT
+    ProductID AS Produto,
+    OrderDetailID AS Detalhes
+FROM OrderDetails
+WHERE ProductID IN (11,21,31)
+ORDER BY OrderDetailID ASC;
+
+at_13
+SELECT
+    Quantity AS Quantidade,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE Quantity IN (40,50,60)
+ORDER BY OrderID ASC;
+
+at_14
+SELECT
+    OrderDetailID AS Detalhes,
+    ProductID AS Produto
+FROM OrderDetails
+WHERE OrderDetailID IN (150,250,350)
+ORDER BY ProductID ASC;
+
+at_15
+SELECT
+    ProductID AS Produto,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE ProductID IN (7,14,21)
+ORDER BY Quantity ASC;
+
+at_16
+SELECT
+    OrderID AS Ordem,
+    OrderDetailID AS Detalhes
+FROM OrderDetails
+WHERE OrderID IN (50,100,200)
+ORDER BY OrderDetailID ASC;
+
+at_17
+SELECT
+    Quantity AS Quantidade,
+    ProductID AS Produto
+FROM OrderDetails
+WHERE Quantity IN (20,25,30)
+ORDER BY ProductID ASC;
+
+at_18
+SELECT
+    OrderDetailID AS Detalhes,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderDetailID IN (10,20,30)
+ORDER BY Quantity ASC;
+
+at_19
+SELECT
+    OrderID AS Ordem,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderID IN (100,200,300)
+ORDER BY Quantity ASC;
+
+at_20
+SELECT
+    Quantity AS Quantidade,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE Quantity IN (5,10,15)
+ORDER BY OrderID ASC;
+
+at_21
+SELECT
+    OrderDetailID AS Detalhes,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderDetailID IN (25,50,75,100)
+ORDER BY Quantity ASC;
+
+at_22
+SELECT
+    ProductID AS Produto,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE ProductID IN (9,18,27)
+ORDER BY OrderID ASC;
+
+at_23
+SELECT
+    Quantity AS Quantidade,
+    ProductID AS Produto
+FROM OrderDetails
+WHERE Quantity IN (12,14,16)
+ORDER BY ProductID ASC;
+
+at_24
+SELECT
+    OrderID AS Ordem,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderID IN (400,500,600)
+ORDER BY Quantity ASC;
+
+at_25
+SELECT
+    OrderDetailID AS Detalhes,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE OrderDetailID IN (20,40,60,80)
+ORDER BY OrderID ASC;
+
+at_26
+SELECT
+    ProductID AS Produto,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE ProductID IN (5,10,20)
+ORDER BY Quantity ASC;
+
+at_27
+SELECT
+    Quantity AS Quantidade,
+    OrderDetailID AS Detalhes
+FROM OrderDetails
+WHERE Quantity IN (8,16,24,32)
+ORDER BY OrderDetailID ASC;
+
+at_28
+SELECT
+    OrderID AS Ordem,
+    ProductID AS Produto
+FROM OrderDetails
+WHERE OrderID IN (300,400,500)
+ORDER BY ProductID ASC;
+
+at_29
+SELECT
+    Quantity AS Quantidade,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE Quantity IN (15,30,45)
+ORDER BY OrderID ASC;
+
+at_30
+SELECT
+    OrderDetailID AS Detalhes,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderDetailID IN (50,150,250)
+ORDER BY Quantity ASC;
+
+at_31
+SELECT
+    OrderDetailID AS Detalhes,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderDetailID IN (100,200,300,400)
+ORDER BY Quantity ASC;
+
+at_32
+SELECT
+    ProductID AS Produto,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE ProductID IN (10,20,30,40)
+ORDER BY OrderID ASC;
+
+at_33
+SELECT
+    Quantity AS Quantidade,
+    ProductID AS Produto
+FROM OrderDetails
+WHERE Quantity IN (5,10,15,20)
+ORDER BY ProductID ASC;
+
+at_34
+SELECT
+    OrderID AS Ordem,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderID IN (50,150,250,350)
+ORDER BY Quantity ASC;
+
+at_35
+SELECT
+    OrderDetailID AS Detalhes,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE OrderDetailID IN (1,3,5,7)
+ORDER BY OrderID ASC;
+
+at_36
+SELECT
+    ProductID AS Produto,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE ProductID IN (13,26,39)
+ORDER BY Quantity ASC;
+
+at_37
+SELECT
+    Quantity AS Quantidade,
+    OrderDetailID AS Detalhes
+FROM OrderDetails
+WHERE Quantity IN (22,44,66,88)
+ORDER BY OrderDetailID ASC;
+
+at_38
+SELECT
+    OrderID AS Ordem,
+    ProductID AS Produto
+FROM OrderDetails
+WHERE OrderID IN (90,180,270)
+ORDER BY ProductID ASC;
+
+at_39
+SELECT
+    Quantity AS Quantidade,
+    OrderID AS Ordem
+FROM OrderDetails
+WHERE Quantity IN (8,16,24,32)
+ORDER BY OrderID ASC;
+
+at_40
+SELECT
+    OrderDetailID AS Detalhes,
+    Quantity AS Quantidade
+FROM OrderDetails
+WHERE OrderDetailID IN (101,201,301,401)
+ORDER BY Quantity ASC;
+
